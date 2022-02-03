@@ -1,12 +1,11 @@
-# Radix-Tree
 Implementation of Radix Tree.
 
-The program was created for a assignment in data structure course. 
+This program was created for an assignment in a data structure course.
 
-The goal was to implementation data structure that storage all the words from input file and shows where each word appears (which line).
+The goal was to implement a data structure that stores all the words from an input file and shows where each word appears (in which line).
 
-The program should prints all the words sorted by alphabet. 
+The program should print all the words sorted alphabetically.
 
-In the assignment the implementation shouldn't include any data structures that already implementation in the language or in some library. 
+The main guideline was not to use any existing data structure of python. I dealt with this restriction by writing my own data structure from scratch. 
 
-The Radix Tree contain nodes when all one of them was initialization with 2 HashMap (one for words and the second for lines).
+The Radix Tree contains nodes, and each one of them was held 2 HashMap (one for words and the second for lines).
